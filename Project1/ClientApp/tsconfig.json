@@ -1,0 +1,26 @@
+{
+"compileOnSave": false,
+"compilerOptions": {
+ "baseUrl": "./",
+ "module": "esnext",
+ // "outDir": "./dist/out-tsc",
+ "outDir": "./dist" /* Redirect output structure to the directory. */,
+ //"rootDir": "./src" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
+ "sourceMap": true,
+ "declaration": false,
+ "moduleResolution": "node",
+ "emitDecoratorMetadata": true,
+ // "experimentalDecorators": true,
+ "experimentalDecorators": true, /* Enables experimental support for ES7 decorators. */
+ "target": "es2015",
+ "typeRoots": [
+   "node_modules/@types"
+ ],
+ "lib": [
+   "es2017",
+   "dom"
+ ]
+}
+
+}
+
